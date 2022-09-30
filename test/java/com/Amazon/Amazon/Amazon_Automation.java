@@ -40,8 +40,7 @@ public class Amazon_Automation extends Regular_methods {
 		clickelement(sdp.getHm().getApple());
 		clickelement(sdp.getHm().getA_phone());
 		Thread.sleep(2000);
-		// js.executeScript("arguments[0].scrollIntoView();",sdp.getHm().getTB());
-		Thread.sleep(5000);
+				Thread.sleep(5000);
 		Actions("movetoelement", sdp.getHm().getButton());
 		
 		
